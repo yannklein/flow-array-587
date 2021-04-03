@@ -4,20 +4,20 @@ students = ['Troy', 'Elyse', 'Piotr', 'Mylene']
 # puts students.size
 # puts students.count
 
-# read an element
+# read an element R
 puts students[1]
 
-# create a new element
+# create a new element C
 students.push('Sasha')
 students << 'Aidan'
 p students
 
-# update an element
+# update an element U
 # element of index 23 in the students array
 students[2] = 'Super Piotr 🦸'
 p students
 
-# remove and element
+# remove and element D
 students.delete_at(2)
 students.delete('Super Sasha')
 p students
